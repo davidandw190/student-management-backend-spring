@@ -13,6 +13,7 @@ import java.util.List;
 
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/students")
 public class StudentResource {
 
